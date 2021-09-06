@@ -133,6 +133,23 @@ bool = isUnityProbabilityArray( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-probability`][@stdlib/assert/is-probability]: test if a value is a probability.
+-   [`@stdlib/assert/is-probability-array`][@stdlib/assert/is-probability-array]: test if a value is an array-like object containing only probabilities.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -189,6 +206,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-unity-probability-array/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_floating_point
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability
+
+[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array
+
+<!-- </related-links> -->
 
 </section>
 
