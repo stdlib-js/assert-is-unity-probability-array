@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isUnityProbabilityArray;
+})();
 })();
 </script>
 ```
@@ -122,6 +124,7 @@ bool = isUnityProbabilityArray( [ 3.14, 0.0 ] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var arr = [ 0.0, 1.0 ];
 var bool = isUnityProbabilityArray( arr );
@@ -149,6 +152,7 @@ bool = isUnityProbabilityArray( [] );
 bool = isUnityProbabilityArray( null );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -247,9 +251,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability/tree/umd
+[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability/tree/umd/tree/umd
 
-[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array/tree/umd
+[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
