@@ -149,8 +149,8 @@ bool = isUnityProbabilityArray( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-probability`][@stdlib/assert/is-probability]</span><span class="delimiter">: </span><span class="description">test if a value is a probability.</span>
--   <span class="package-name">[`@stdlib/assert/is-probability-array`][@stdlib/assert/is-probability-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only probabilities.</span>
+-   <span class="package-name">[`@stdlib/assert-is-probability`][@stdlib/assert/is-probability]</span><span class="delimiter">: </span><span class="description">test if a value is a probability.</span>
+-   <span class="package-name">[`@stdlib/assert-is-probability-array`][@stdlib/assert/is-probability-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only probabilities.</span>
 
 </section>
 
