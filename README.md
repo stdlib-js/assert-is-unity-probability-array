@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@deno/mod.js';
+import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@v0.1.0-deno/mod.js';
 ```
 
 #### isUnityProbabilityArray( value )
@@ -103,7 +103,7 @@ bool = isUnityProbabilityArray( [ 3.14, 0.0 ] );
 
 ```javascript
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
-import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@deno/mod.js';
+import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@v0.1.0-deno/mod.js';
 
 var arr = [ 0.0, 1.0 ];
 var bool = isUnityProbabilityArray( arr );
