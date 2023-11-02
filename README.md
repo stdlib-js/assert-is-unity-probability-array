@@ -35,14 +35,30 @@ limitations under the License.
 
 > Test if a value is an array of probabilities that sum to one.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-unity-probability-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@esm/index.mjs';
+var isUnityProbabilityArray = require( '@stdlib/assert-is-unity-probability-array' );
 ```
 
 #### isUnityProbabilityArray( value )
@@ -50,7 +66,7 @@ import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/asser
 Tests if a `value` is an array of probabilities that sum to one.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var bool = isUnityProbabilityArray( [ 0.25, 0.5, 0.25 ] );
 // returns true
@@ -101,14 +117,9 @@ bool = isUnityProbabilityArray( [ 3.14, 0.0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@esm/index.mjs';
+```javascript
+var Uint8Array = require( '@stdlib/array-uint8' );
+var isUnityProbabilityArray = require( '@stdlib/assert-is-unity-probability-array' );
 
 var arr = [ 0.0, 1.0 ];
 var bool = isUnityProbabilityArray( arr );
@@ -135,10 +146,6 @@ bool = isUnityProbabilityArray( [] );
 
 bool = isUnityProbabilityArray( null );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -169,7 +176,7 @@ bool = isUnityProbabilityArray( null );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -233,9 +240,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability/tree/esm
+[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability
 
-[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array/tree/esm
+[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array
 
 <!-- </related-links> -->
 
