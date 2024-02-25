@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@esm/index.mjs';
+import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@v0.2.1-esm/index.mjs';
 ```
 
 #### isUnityProbabilityArray( value )
@@ -108,7 +108,7 @@ bool = isUnityProbabilityArray( [ 3.14, 0.0 ] );
 <script type="module">
 
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@esm/index.mjs';
+import isUnityProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@v0.2.1-esm/index.mjs';
 
 var arr = [ 0.0, 1.0 ];
 var bool = isUnityProbabilityArray( arr );
