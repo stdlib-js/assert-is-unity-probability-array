@@ -55,7 +55,7 @@
     "@stdlib/array-uint8c": "^0.2.1",
     "@stdlib/assert-is-boolean": "^0.2.1",
     "@stdlib/buffer-from-array": "^0.2.1",
-    "@stdlib/math-base-special-pow": "^0.2.0",
+    "@stdlib/math-base-special-pow": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
