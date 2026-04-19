@@ -35,32 +35,38 @@ limitations under the License.
 
 > Test if a value is an array of probabilities that sum to one.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/assert-is-unity-probability-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var isUnityProbabilityArray = require( '@stdlib/assert-is-unity-probability-array' );
+isUnityProbabilityArray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var isUnityProbabilityArray = require( 'path/to/vendor/umd/assert-is-unity-probability-array/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.isUnityProbabilityArray;
+})();
+</script>
 ```
 
 #### isUnityProbabilityArray( value )
@@ -119,9 +125,14 @@ bool = isUnityProbabilityArray( [ 3.14, 0.0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var Uint8Array = require( '@stdlib/array-uint8' );
-var isUnityProbabilityArray = require( '@stdlib/assert-is-unity-probability-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-unity-probability-array@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var arr = [ 0.0, 1.0 ];
 var bool = isUnityProbabilityArray( arr );
@@ -148,6 +159,11 @@ bool = isUnityProbabilityArray( [] );
 
 bool = isUnityProbabilityArray( null );
 // returns false
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -245,9 +261,9 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability
+[@stdlib/assert/is-probability]: https://github.com/stdlib-js/assert-is-probability/tree/umd
 
-[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array
+[@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert-is-probability-array/tree/umd
 
 <!-- </related-links> -->
 
